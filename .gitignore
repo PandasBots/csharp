@@ -1,6 +1,6 @@
 # PASSWORDS #
 ###################
-.config
+*.config
 
 # Compiled source #
 ###################
