@@ -28,8 +28,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/PandasBots/csharp">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  <a href="https://dotnet.microsoft.com/en-us/learn/csharp">
+    <img src="https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white" alt="Logo" >
   </a>
 <h3 align="center">Repositório C#</h3>
 </div>
@@ -37,7 +37,7 @@
 <!-- USAGE EXAMPLES -->
 ## Sobre
 
-[![C#][C#-shield]][C#-url] Repositório com a compilação dos estudos sobre C#.
+Repositório com a compilação dos estudos sobre C#.
 
 Project Link: [https://github.com/PandasBots/csharp](https://github.com/PandasBots/csharp)
 
