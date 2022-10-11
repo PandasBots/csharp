@@ -1,0 +1,15 @@
+/Users/rafaelknunes/Desktop/learn-hub/csharp/oop/HelpClass/HelpClass/obj/Debug/net6.0/HelpClass.csproj.AssemblyReference.cache
+/Users/rafaelknunes/Desktop/learn-hub/csharp/oop/HelpClass/HelpClass/obj/Debug/net6.0/HelpClass.GeneratedMSBuildEditorConfig.editorconfig
+/Users/rafaelknunes/Desktop/learn-hub/csharp/oop/HelpClass/HelpClass/obj/Debug/net6.0/HelpClass.AssemblyInfoInputs.cache
+/Users/rafaelknunes/Desktop/learn-hub/csharp/oop/HelpClass/HelpClass/obj/Debug/net6.0/HelpClass.AssemblyInfo.cs
+/Users/rafaelknunes/Desktop/learn-hub/csharp/oop/HelpClass/HelpClass/obj/Debug/net6.0/HelpClass.csproj.CoreCompileInputs.cache
+/Users/rafaelknunes/Desktop/learn-hub/csharp/oop/HelpClass/HelpClass/bin/Debug/net6.0/HelpClass
+/Users/rafaelknunes/Desktop/learn-hub/csharp/oop/HelpClass/HelpClass/bin/Debug/net6.0/HelpClass.deps.json
+/Users/rafaelknunes/Desktop/learn-hub/csharp/oop/HelpClass/HelpClass/bin/Debug/net6.0/HelpClass.runtimeconfig.json
+/Users/rafaelknunes/Desktop/learn-hub/csharp/oop/HelpClass/HelpClass/bin/Debug/net6.0/HelpClass.dll
+/Users/rafaelknunes/Desktop/learn-hub/csharp/oop/HelpClass/HelpClass/bin/Debug/net6.0/HelpClass.pdb
+/Users/rafaelknunes/Desktop/learn-hub/csharp/oop/HelpClass/HelpClass/obj/Debug/net6.0/HelpClass.dll
+/Users/rafaelknunes/Desktop/learn-hub/csharp/oop/HelpClass/HelpClass/obj/Debug/net6.0/refint/HelpClass.dll
+/Users/rafaelknunes/Desktop/learn-hub/csharp/oop/HelpClass/HelpClass/obj/Debug/net6.0/HelpClass.pdb
+/Users/rafaelknunes/Desktop/learn-hub/csharp/oop/HelpClass/HelpClass/obj/Debug/net6.0/HelpClass.genruntimeconfig.cache
+/Users/rafaelknunes/Desktop/learn-hub/csharp/oop/HelpClass/HelpClass/obj/Debug/net6.0/ref/HelpClass.dll
