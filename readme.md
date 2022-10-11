@@ -45,8 +45,7 @@ Project Link: [https://github.com/PandasBots/csharp](https://github.com/PandasBo
 
 ## Cursos
 
-[![C# COMPLETO Programação Orientada a Objetos + Projetos][Curso1-shield]][Curso1-url] C# COMPLETO Programação Orientada a Objetos + Projetos
-* 
+[![C# COMPLETO Programação Orientada a Objetos + Projetos][Curso1-shield]][Curso1-url] C# COMPLETO Programação Orientada a Objetos + Projetos.
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
