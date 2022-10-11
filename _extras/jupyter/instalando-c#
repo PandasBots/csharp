@@ -1,0 +1,9 @@
+Para instalar o c# com VS Code, primeiro instale a extensao:
+
+- NET Interactive Notebooks
+
+Depois, instale o sdk para .NET
+
+- https://dotnet.microsoft.com/download/dotnet/6.0
+
+Depois disso, basta criar um notebook e selecionar .NET Interactive como o compilador e tudo estara ok.
