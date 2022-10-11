@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/rafaelknunes/Desktop/learn-hub/enciclopedia-c#/_projects/PrimeiroProjeto/PrimeiroProjeto/PrimeiroProjeto.csproj": {}
+    "/Users/rafaelknunes/Desktop/learn-hub/csharp/_projects/PrimeiroProjeto/PrimeiroProjeto/PrimeiroProjeto.csproj": {}
   },
   "projects": {
-    "/Users/rafaelknunes/Desktop/learn-hub/enciclopedia-c#/_projects/PrimeiroProjeto/PrimeiroProjeto/PrimeiroProjeto.csproj": {
+    "/Users/rafaelknunes/Desktop/learn-hub/csharp/_projects/PrimeiroProjeto/PrimeiroProjeto/PrimeiroProjeto.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/rafaelknunes/Desktop/learn-hub/enciclopedia-c#/_projects/PrimeiroProjeto/PrimeiroProjeto/PrimeiroProjeto.csproj",
+        "projectUniqueName": "/Users/rafaelknunes/Desktop/learn-hub/csharp/_projects/PrimeiroProjeto/PrimeiroProjeto/PrimeiroProjeto.csproj",
         "projectName": "PrimeiroProjeto",
-        "projectPath": "/Users/rafaelknunes/Desktop/learn-hub/enciclopedia-c#/_projects/PrimeiroProjeto/PrimeiroProjeto/PrimeiroProjeto.csproj",
+        "projectPath": "/Users/rafaelknunes/Desktop/learn-hub/csharp/_projects/PrimeiroProjeto/PrimeiroProjeto/PrimeiroProjeto.csproj",
         "packagesPath": "/Users/rafaelknunes/.nuget/packages/",
-        "outputPath": "/Users/rafaelknunes/Desktop/learn-hub/enciclopedia-c#/_projects/PrimeiroProjeto/PrimeiroProjeto/obj/",
+        "outputPath": "/Users/rafaelknunes/Desktop/learn-hub/csharp/_projects/PrimeiroProjeto/PrimeiroProjeto/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
