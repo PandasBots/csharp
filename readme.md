@@ -25,24 +25,28 @@
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
-
-
-
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
   <a href="https://github.com/PandasBots/csharp">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
-<h3 align="center">Guia de Referências </h3>
+<h3 align="center">Repositório C#</h3>
 </div>
 
 <!-- USAGE EXAMPLES -->
 ## Sobre
 
-Compilação dos estudos de [![C#][C#]][C#-url].
+[![C#][C#-shield]][C#-url] Repositório com a compilação dos estudos sobre C#.
 
 Project Link: [https://github.com/PandasBots/csharp](https://github.com/PandasBots/csharp)
+
+</br>
+
+## Cursos
+
+[![C# COMPLETO Programação Orientada a Objetos + Projetos][Curso1-shield]][Curso1-url] C# COMPLETO Programação Orientada a Objetos + Projetos
+* 
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
@@ -60,5 +64,7 @@ Project Link: [https://github.com/PandasBots/csharp](https://github.com/PandasBo
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/rafaelknunes
 [product-screenshot]: images/screenshot.png
-[C#]: https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white
-[C#-url]: https://learn.microsoft.com/pt-br/dotnet/csharp/
+[C#-shield]: https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white
+[C#-url]: https://dotnet.microsoft.com/en-us/learn/csharp
+[Curso1-shield]: https://img.shields.io/badge/Udemy-EC5252?style=for-the-badge&logo=Udemy&logoColor=white
+[Curso1-url]: https://www.udemy.com/share/101WB03@p6jfSdfUIn4CsDm5VJJD-ULtiWGZ4rZIk-3rfa-lFZkaetNk6TOj7RDBzwqrYP0Q/
