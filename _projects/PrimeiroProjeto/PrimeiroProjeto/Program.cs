@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 // Para tratar números padrão EUA e BR
 using System.Globalization;
 
@@ -37,7 +38,7 @@ namespace PrimeiroProjeto // Note: actual namespace depends on the project name.
             p.RemoverProdutos(qtd_remove);
             // Exibe a descrição (ToString) do produto
             Console.WriteLine($"Dados atualizados do produto: {p}.");
-            */
+            
 
             // Chama Operação da Clásse Estática
             int raio = 3;
@@ -45,6 +46,28 @@ namespace PrimeiroProjeto // Note: actual namespace depends on the project name.
             Console.WriteLine($"Circunferencia do circulo de raio: {raio} é: {circ}");
 
             Produto p = new Produto();
+            
+            List<string> list = new List<string>();
+            list.Add("Maria");
+            list.Add("Joao");
+            list.Add("Altair");
+            list.Add("Ana");
+            list.Add("AnaAnaAnaAna");
+            //Console.WriteLine(list);
+            List<string> listResultado = new List<string>();
+            listResultado = list.FindAll(x => x.Length >= 5);
+            //listResultado = list.FindAll(x => x.Length == 5);
+            listResultado.ForEach(Console.WriteLine);
+            */
+
+            // Matrizes
+            double[,] mat = new double[2, 3];
+
+            Console.WriteLine(mat.Length);
+            Console.WriteLine(mat.Rank);
+            Console.WriteLine(mat.GetLength(0));
+            Console.WriteLine(mat.GetLength(1));
+
 
 
 
