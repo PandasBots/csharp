@@ -1,0 +1,15 @@
+/Users/rafaelknunes/Desktop/learn-hub/csharp/oop/entities/ComposicaoExercicio/ComposicaoExercicio/ComposicaoExercicio/obj/Debug/net6.0/ComposicaoExercicio.csproj.AssemblyReference.cache
+/Users/rafaelknunes/Desktop/learn-hub/csharp/oop/entities/ComposicaoExercicio/ComposicaoExercicio/ComposicaoExercicio/obj/Debug/net6.0/ComposicaoExercicio.GeneratedMSBuildEditorConfig.editorconfig
+/Users/rafaelknunes/Desktop/learn-hub/csharp/oop/entities/ComposicaoExercicio/ComposicaoExercicio/ComposicaoExercicio/obj/Debug/net6.0/ComposicaoExercicio.AssemblyInfoInputs.cache
+/Users/rafaelknunes/Desktop/learn-hub/csharp/oop/entities/ComposicaoExercicio/ComposicaoExercicio/ComposicaoExercicio/obj/Debug/net6.0/ComposicaoExercicio.AssemblyInfo.cs
+/Users/rafaelknunes/Desktop/learn-hub/csharp/oop/entities/ComposicaoExercicio/ComposicaoExercicio/ComposicaoExercicio/obj/Debug/net6.0/ComposicaoExercicio.csproj.CoreCompileInputs.cache
+/Users/rafaelknunes/Desktop/learn-hub/csharp/oop/entities/ComposicaoExercicio/ComposicaoExercicio/ComposicaoExercicio/bin/Debug/net6.0/ComposicaoExercicio
+/Users/rafaelknunes/Desktop/learn-hub/csharp/oop/entities/ComposicaoExercicio/ComposicaoExercicio/ComposicaoExercicio/bin/Debug/net6.0/ComposicaoExercicio.deps.json
+/Users/rafaelknunes/Desktop/learn-hub/csharp/oop/entities/ComposicaoExercicio/ComposicaoExercicio/ComposicaoExercicio/bin/Debug/net6.0/ComposicaoExercicio.runtimeconfig.json
+/Users/rafaelknunes/Desktop/learn-hub/csharp/oop/entities/ComposicaoExercicio/ComposicaoExercicio/ComposicaoExercicio/bin/Debug/net6.0/ComposicaoExercicio.dll
+/Users/rafaelknunes/Desktop/learn-hub/csharp/oop/entities/ComposicaoExercicio/ComposicaoExercicio/ComposicaoExercicio/bin/Debug/net6.0/ComposicaoExercicio.pdb
+/Users/rafaelknunes/Desktop/learn-hub/csharp/oop/entities/ComposicaoExercicio/ComposicaoExercicio/ComposicaoExercicio/obj/Debug/net6.0/ComposicaoExercicio.dll
+/Users/rafaelknunes/Desktop/learn-hub/csharp/oop/entities/ComposicaoExercicio/ComposicaoExercicio/ComposicaoExercicio/obj/Debug/net6.0/refint/ComposicaoExercicio.dll
+/Users/rafaelknunes/Desktop/learn-hub/csharp/oop/entities/ComposicaoExercicio/ComposicaoExercicio/ComposicaoExercicio/obj/Debug/net6.0/ComposicaoExercicio.pdb
+/Users/rafaelknunes/Desktop/learn-hub/csharp/oop/entities/ComposicaoExercicio/ComposicaoExercicio/ComposicaoExercicio/obj/Debug/net6.0/ComposicaoExercicio.genruntimeconfig.cache
+/Users/rafaelknunes/Desktop/learn-hub/csharp/oop/entities/ComposicaoExercicio/ComposicaoExercicio/ComposicaoExercicio/obj/Debug/net6.0/ref/ComposicaoExercicio.dll

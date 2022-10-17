@@ -1,0 +1,34 @@
+﻿<Properties StartupConfiguration="{A2296F87-8357-45E2-80F1-7DCB600B5BFB}|Default">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ComposicaoExercicio/Program.cs">
+    <Files>
+      <File FileName="ComposicaoExercicio/Program.cs" Line="32" Column="54" />
+      <File FileName="ComposicaoExercicio/Entities/Department.cs" Line="18" Column="1" />
+      <File FileName="ComposicaoExercicio/Entities/HourContract.cs" Line="30" Column="1" />
+      <File FileName="ComposicaoExercicio/Entities/Worker.cs" Line="66" Column="1" />
+      <File FileName="ComposicaoExercicio/Entities/Enums/WorkerLevel.cs" Line="16" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ComposicaoExercicio" expanded="True">
+            <Node name="ComposicaoExercicio" expanded="True">
+              <Node name="Entities" expanded="True">
+                <Node name="Enums" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.ComposicaoExercicio PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>
