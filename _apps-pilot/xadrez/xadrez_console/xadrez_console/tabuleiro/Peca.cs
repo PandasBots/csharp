@@ -1,6 +1,6 @@
 ﻿namespace tabuleiro
 {
-    class Peca
+    abstract class Peca
     {
         // 1. Atributos
         public Posicao posicao { get; set; }
@@ -22,6 +22,16 @@
             this.cor = cor;
             this.qteMovimentos = 0;
         }
+
+        // 3. Método
+        // Incrementa a qtd de movimentos
+        public void incrementarQteMovimentos()
+        {
+            qteMovimentos++;
+        }
+        // Método para mover as peças. Retorna uma matriz de booleanos dizendo quais lugares a peça pode ir.
+        // Método abstrato, pois é genérico demais. não possui um corpo por definição.
+        public abstract bool[,] movimentosPossiveis();
 
     }
 }

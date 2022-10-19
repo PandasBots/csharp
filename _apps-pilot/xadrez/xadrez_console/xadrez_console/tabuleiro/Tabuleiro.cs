@@ -41,6 +41,20 @@
             pecas[pos.linha, pos.coluna] = p;
             p.posicao = pos;
         }
+        // Retirar Peça do tabuleiro e marca a posição como nula.
+        public Peca retirarPeca(Posicao pos)
+        {
+            // Se determinada posição é nula, então a peça já está retirada.
+            if (existePeca(pos) == false)
+            {
+                return null;
+            }
+            // Caso contrário, marcamos a posição da peça como nula e retornamos a peça.
+            Peca aux = peca(pos);
+            aux.posicao = null;
+            pecas[pos.linha, pos.coluna] = null;
+            return aux;
+        }
 
         // Exceções
         // Verifica se uma peça existe numa determinada posição.

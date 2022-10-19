@@ -19,6 +19,12 @@
         {
             return $"{linha}, {coluna}";
         }
+        // Método para definir as coordenadas linha/coluna de uma determinada posição.
+        public void definirValores(int linha, int coluna)
+        {
+            this.linha = linha;
+            this.coluna = coluna;
+        }
     }
 }
 

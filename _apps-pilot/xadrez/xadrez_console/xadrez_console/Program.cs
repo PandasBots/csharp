@@ -10,24 +10,30 @@ namespace xadrez_console
         {
             try
             {
+
                 // Mensagem Inicial
                 Console.ForegroundColor = ConsoleColor.Yellow;
                 Console.WriteLine("Bem Vindo ao Pandas Chess\n");
 
-                /*
-                // Instanciar Tabuleiro Vazio
-                Tabuleiro tab = new Tabuleiro(8, 8);
-                // Colocar as peças iniciais
-                tab.colocarPeca(new Torre(tab, Cor.Preta), new Posicao(0, 7));
-                tab.colocarPeca(new Torre(tab, Cor.Preta), new Posicao(0, 2));
-                tab.colocarPeca(new Rei(tab, Cor.Preta), new Posicao(2, 4));
-                tab.colocarPeca(new Torre(tab, Cor.Branca), new Posicao(1, 4));
-                tab.colocarPeca(new Rei(tab, Cor.Branca), new Posicao(3, 5));
+                // Inicia
+                PartidaDeXadrez partida = new PartidaDeXadrez();
 
-                // Chamar a Tela e Imprimir o Tabuleiro
-                Tela.imprimirTabuleiro(tab);
-                
-                */
+                while (!partida.terminada)
+                {
+                    // limpa tela
+                    Console.Clear();
+                    // Imprimir
+                    Tela.imprimirTabuleiro(partida.tab);
+                    // Ler uma posiçao do xadrez no teclado. Transforma para pos de matriz.
+                    Console.WriteLine("\nDigite posição origem:");
+                    Posicao origem = Tela.lerPosicaoXadrez().toPosicao();
+                    Console.WriteLine("\nDigite posição destino:");
+                    Posicao destino = Tela.lerPosicaoXadrez().toPosicao();
+                    // Executa um movimento
+                    partida.executaMovimento(origem, destino);
+
+                }
+
 
 
 

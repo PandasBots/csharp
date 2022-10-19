@@ -1,4 +1,5 @@
 ﻿using tabuleiro;
+using xadrez;
 
 namespace xadrez_console
 {
@@ -46,6 +47,17 @@ namespace xadrez_console
                 Console.ForegroundColor = aux;
 
             }
+        }
+
+        // Método para ler a posição
+        public static PosicaoXadrez lerPosicaoXadrez()
+        {
+            // Usuário insere uma posição do xadrez
+            string s = Console.ReadLine();
+            char coluna = s[0];
+            int linha = int.Parse($"{s[1]}");
+
+            return new PosicaoXadrez(coluna, linha);
         }
     }
 }
