@@ -9,9 +9,11 @@ namespace xadrez_console
         {
             for(int i=0; i < tab.linhas; i++)
             {
+                // Imprime a legenda do tabuleiro
+                Console.Write($"{8 - i} ");
                 for(int j=0; j < tab.colunas; j++)
                 {
-                    if(tab.peca(i,j) == null)
+                    if (tab.peca(i,j) == null)
                     {
                         Console.Write("[ ] ");
                     }
@@ -19,12 +21,30 @@ namespace xadrez_console
                     {
                         // Vamos imprimir o valor da matriz pecas de tab através do
                         // método público peca(linha, coluna).
-                        Console.Write($"{tab.peca(i, j)} ");
+                        imprimirPeca(tab.peca(i, j));
                     }
 
                 }
                 // Adiciona quebra de linha
                 Console.WriteLine();
+            }
+            Console.Write($"   a   b   c   d   e   f   g   h");
+        }
+
+        // Método para imprimir a cor da peça
+        public static void imprimirPeca(Peca peca)
+        {
+            if(peca.cor == Cor.Branca)
+            {
+                Console.Write($"{ peca} ");
+            }
+            else
+            {
+                ConsoleColor aux = Console.ForegroundColor;
+                Console.ForegroundColor = ConsoleColor.Yellow;
+                Console.Write($"{peca} ");
+                Console.ForegroundColor = aux;
+
             }
         }
     }
