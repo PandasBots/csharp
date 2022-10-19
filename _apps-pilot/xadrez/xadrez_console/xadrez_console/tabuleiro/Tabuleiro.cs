@@ -24,7 +24,51 @@
             // Retorna o elemento da matriz pecas na posicao linha/coluna
             return pecas[linha, coluna];
         }
+        // Sobrecarga do método peca. OU seja, mesmo nome de método, mas é chamado de acordo com o número de parâmetros.
+        public Peca peca(Posicao pos)
+        {
+            // Retorna o elemento da matriz pecas na posicao linha/coluna
+            return pecas[pos.linha, pos.coluna];
+        }
+        // Método para colocar peças no tabuleiro
+        public void colocarPeca(Peca p, Posicao pos)
+        {
+            // Melhoria: Só posso colocar peça onde não existe outra peça.
+            if (existePeca(pos))
+            {
+                throw new TabuleiroException("Já existe peça nesta posição");
+            }
+            pecas[pos.linha, pos.coluna] = p;
+            p.posicao = pos;
+        }
 
+        // Exceções
+        // Verifica se uma peça existe numa determinada posição.
+        public bool existePeca(Posicao pos)
+        {
+            // primeiro verifica a posição
+            validarPosicao(pos);
+            // Retorna true ou false dependendo se a peca na posicao pos existe ou não.
+            return peca(pos) != null;
+        }
+        public bool posicaoValida(Posicao pos)
+        {
+            if(pos.linha < 0 || pos.linha >= linhas || pos.coluna < 0 || pos.coluna >= colunas)
+            {
+                return false;
+            }
+            else
+            {
+                return true;
+            }
+        }
+        public void validarPosicao(Posicao pos)
+        {
+            if (!posicaoValida(pos))
+            {
+                throw new TabuleiroException("Posição Inválida");
+            }
+        }
     }
 }
 

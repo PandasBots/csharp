@@ -1,5 +1,6 @@
 ﻿using System;
 using tabuleiro;
+using xadrez;
 
 namespace xadrez_console
 {
@@ -7,13 +8,25 @@ namespace xadrez_console
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Bem Vindo ao Pandas Chess");
-            // Variável
-            Tabuleiro tab = new Tabuleiro(8, 8);
+            try
+            {
+                // Mensagem Inicial
+                Console.WriteLine("Bem Vindo ao Pandas Chess\n");
 
-            // Chamar a Tela e Imprimir o Tabuleiro
-            Tela.imprimirTabuleiro(tab);
+                // Instanciar Tabuleiro Vazio
+                Tabuleiro tab = new Tabuleiro(8, 8);
+                // Colocar as peças iniciais
+                tab.colocarPeca(new Torre(tab, Cor.Preta), new Posicao(0, 9));
+                tab.colocarPeca(new Torre(tab, Cor.Preta), new Posicao(0, 2));
+                tab.colocarPeca(new Rei(tab, Cor.Preta), new Posicao(2, 4));
 
+                // Chamar a Tela e Imprimir o Tabuleiro
+                Tela.imprimirTabuleiro(tab);
+            }
+            catch(TabuleiroException e)
+            {
+                Console.WriteLine(e.Message);
+            }
         }
     }
 }

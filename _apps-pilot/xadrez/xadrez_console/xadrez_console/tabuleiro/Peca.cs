@@ -14,13 +14,15 @@
         // 2. Construtores
         // Veja que usamos THIS para especificar de qual variável estamos falando.
         // Uma alternativa seria usar variáveis com nomes diferentes, ou PascalCase.
-        public Peca(Posicao posicao, Tabuleiro tab, Cor cor)
+        // Veja que ao criar uma peça a posição será nula. Pois isso será feito pelo método
+        // colocarPeca do namespace Tabuleiro
+        public Peca(Tabuleiro tab, Cor cor)
         {
-            this.posicao = posicao;
             this.tab = tab;
             this.cor = cor;
             this.qteMovimentos = 0;
         }
+
     }
 }
 
