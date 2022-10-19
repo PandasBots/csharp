@@ -1,18 +1,18 @@
 ﻿using tabuleiro;
 namespace xadrez
 {
-    class Torre : Peca
+    class Rei : Peca
     {
         // Construtor
         // Ao receber um tabuleiro e uma cor, ele repassa para o método da classe base: Peca.
-        public Torre(Tabuleiro tab, Cor cor) : base(tab, cor)
+        public Rei(Tabuleiro tab, Cor cor) : base(tab, cor)
         {
         }
 
         // Métodos
         public override string ToString()
         {
-            return "[R]";
+            return "[K]";
         }
         // Método que verifica se pode mover
         private bool podeMover(Posicao pos)
@@ -35,13 +35,13 @@ namespace xadrez
                 mat[pos.linha, pos.coluna] = true;
             }
             // 2. Posição NE da peça
-            pos.definirValores(posicao.linha - 1, posicao.coluna - 1);
+            pos.definirValores(posicao.linha - 1, posicao.coluna + 1);
             if (tab.posicaoValida(pos) && podeMover(pos))
             {
                 mat[pos.linha, pos.coluna] = true;
             }
             // 2. Posição Leste da peça
-            pos.definirValores(posicao.linha, posicao.coluna - 1);
+            pos.definirValores(posicao.linha, posicao.coluna + 1);
             if (tab.posicaoValida(pos) && podeMover(pos))
             {
                 mat[pos.linha, pos.coluna] = true;

@@ -1,18 +1,18 @@
 ﻿using tabuleiro;
 namespace xadrez
 {
-    class Rei : Peca
+    class Torre : Peca
     {
         // Construtor
         // Ao receber um tabuleiro e uma cor, ele repassa para o método da classe base: Peca.
-        public Rei(Tabuleiro tab, Cor cor) : base(tab, cor)
+        public Torre(Tabuleiro tab, Cor cor) : base(tab, cor)
         {
         }
 
         // Métodos
         public override string ToString()
         {
-            return "[K]";
+            return "[R]";
         }
         // Método que verifica se pode mover
         private bool podeMover(Posicao pos)

@@ -29,6 +29,31 @@
         {
             qteMovimentos++;
         }
+        // Verifica se há movimentos possíveis. Verifica se na matriz de movimentos possíveis existe pelo menos um true.
+        public bool existeMovimentosPossiveis()
+        {
+            bool[,] mat = movimentosPossiveis();
+            for(int i = 0; i< tab.linhas; i++)
+            {
+                for(int j = 0; j<tab.colunas; j++)
+                {
+                    // Encontrou uma posição true
+                    if (mat[i, j])
+                    {
+                        return true;
+                    }
+                }
+            }
+            // varremos toda a matriz e concluímos q nao há movimentos possíveis.
+            return false;
+        }
+
+        // Método para verificar se uma peça pode mover para uma dada posição.
+        public bool podeMoverPara(Posicao pos)
+        {
+            return movimentosPossiveis()[pos.linha, pos.coluna];
+        }
+
         // Método para mover as peças. Retorna uma matriz de booleanos dizendo quais lugares a peça pode ir.
         // Método abstrato, pois é genérico demais. não possui um corpo por definição.
         public abstract bool[,] movimentosPossiveis();
