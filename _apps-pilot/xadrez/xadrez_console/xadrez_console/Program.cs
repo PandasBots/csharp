@@ -23,14 +23,9 @@ namespace xadrez_console
                     {
                         // Limpa e Imprime o Tabuleiro neste passo.
                         Console.Clear();
-                        Tela.imprimirTabuleiro(partida.tab);
+                        Tela.imprimirPartida(partida);
 
-                        // Imprime o Turno
-                        Console.WriteLine($"\n Turno: {partida.turno}");
-                        Console.WriteLine($"\n Aguardando jogada das: {partida.jogadorAtual}s");
-
-
-                        // Ler uma posiçao do xadrez no teclado. Transforma para pos de matriz.
+                        // Posição de Origem
                         Console.WriteLine("\nDigite posição origem:");
                         Posicao origem = Tela.lerPosicaoXadrez().toPosicao();
                         partida.validarPosicaoOrigem(origem);
@@ -42,13 +37,14 @@ namespace xadrez_console
                         Console.Clear();
                         Tela.imprimirTabuleiro(partida.tab, posicoesPossiveis);
 
-
+                        // Posição de Destino
                         Console.WriteLine("\nDigite posição destino:");
                         Posicao destino = Tela.lerPosicaoXadrez().toPosicao();
                         partida.validarPosicaoDestino(origem, destino);
 
                         // Executa um movimento
-                        partida.executaMovimento(origem, destino);
+                        partida.realizaJogada(origem, destino);
+
                     }
                     catch (TabuleiroException e)
                     {
@@ -57,16 +53,14 @@ namespace xadrez_console
                         Console.ReadLine();
                     }
                 }
-
-
-
-
-
+                Console.Clear();
+                Tela.imprimirPartida(partida);
             }
             catch(TabuleiroException e)
             {
                 Console.WriteLine(e.Message);
             }
+            Console.ReadLine();
         }
     }
 }

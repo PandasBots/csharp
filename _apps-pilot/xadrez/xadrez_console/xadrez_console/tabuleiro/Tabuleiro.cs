@@ -45,7 +45,7 @@
         public Peca retirarPeca(Posicao pos)
         {
             // Se determinada posição é nula, então a peça já está retirada.
-            if (existePeca(pos) == false)
+            if (peca(pos) == null)
             {
                 return null;
             }
@@ -60,11 +60,12 @@
         // Verifica se uma peça existe numa determinada posição.
         public bool existePeca(Posicao pos)
         {
-            // primeiro verifica a posição
+            // primeiro verifica a posição esta dentro do tabuleiro.
             validarPosicao(pos);
             // Retorna true ou false dependendo se a peca na posicao pos existe ou não.
             return peca(pos) != null;
         }
+        // Posicao dentro do tabuleiro
         public bool posicaoValida(Posicao pos)
         {
             if(pos.linha < 0 || pos.linha >= linhas || pos.coluna < 0 || pos.coluna >= colunas)
